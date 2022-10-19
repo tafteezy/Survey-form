@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEEZY CUSTOMS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">TEEZY CUSTOMS</h1>
+    <p id="description">Where art comes to life</p>
+    <form id="survey-form">
+    <fieldset>
+        <div class="form">
+            <label for="name" id="name-label">Name</label><input type="text" id="name" placeholder="Enter a username" required >
+            <label for="email" id="email-label">Email</label><input type="email" id="email" placeholder="Enter your email" required>
+            <label for="Age"  id="number-label">Age</label><input type="number" id="number"  placeholder="Age" min="14" max="99" required>
+        </div>
+        
+    </fieldset>
+    <fieldset>
+        <div class="ads"> 
+            <p>where did you hear about us?</p>
+            <select  id="dropdown">
+                <option value=""></option>
+                <option value="Instagram">Instagram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Television">Television</option>
+                <option value="Word of mouth">Word of mouth</option>
+            </select>
+    </fieldset>
+    
+    </div>       
+    
+    <fieldset >
+        <div class="recommend"> 
+            <p>Would you recommend TEEZY CUSTOMS to a friend</p>
+            <input type="radio" name="recommend" value="yes">yes<br>
+            <input type="radio" name="recommend" value="no">no<br>
+            <p>
+				What would you like us to improve on ?
+			</p>
+            <input type="checkbox" name="improve" value="Our Apps">Our Apps<br>
+            <input type="checkbox" name="improve" value="Customer Servoce">Customer Servoce<br>
+            <input type="checkbox" name="improve" value="social Media Presence">social Media Presence<br>
+            <input type="checkbox" name="improve" value="Our Product Offerings">Our Product Offerings<br>
+            <input type="checkbox" name="improve" value="Delivery">Delivery<br>
+            <fieldset>
+                <div class="comment">
+                    <p>Any comments or suggestions?</p>
+                    <textarea name="comments" placeholder="Enter your comments here..." rows="3" cols="80"></textarea>
+                </div>
+            </fieldset>
+            <input type="submit" name="" id="submit">
+        </div>  
+    </fieldset>
+    </form>
+</body>
+</html>

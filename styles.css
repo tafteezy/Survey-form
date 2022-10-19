@@ -1,0 +1,99 @@
+body {
+display: block;
+height: 100vh;
+background-image: url(/image/9b08ddfe59624c5c82070c96.jpg);
+color: rgb(2, 1, 1);
+font-family: cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+form {
+    margin: 50px 315px 0 345px;
+    padding-bottom: 2em;
+    background-color: rgba(99, 56, 99, 0.548);
+    border-radius: 39px;
+
+  }
+#title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: rgb(241, 158, 186);
+}
+#description{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: rgb(248, 168, 201);
+    
+}
+label{
+display: block;
+margin: 0.5rem 0;
+box-sizing: border-box;
+margin: 10px 0 0 0;
+width: 100%;
+text-align: center;
+font-size: 23px;
+
+}
+input[type=text]{
+    width: 640px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 15px;
+    border-style: none;
+    text-align: center;
+}
+input[type=number]{
+    width: 640px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 15px;
+    border-style: none;
+    text-align: center;
+}
+
+input[type=email]{
+    width: 640px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 15px;
+    border-color: rgb(207, 151, 184);
+    border-style: none;
+    text-align: center;
+}
+.recommend{
+    
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+.ads{
+    font-size: 23px;
+   ;
+}
+#dropdown{
+    width: 640px;
+    height: 40px;
+    margin: 0 0 20px 0;
+    border-radius: 15px;
+}
+    
+fieldset{
+    border: none;
+   
+}
+
+
+input[type=submit]{
+    width: 640px;
+    height: 40px;
+    font-size: 21px;
+    border-radius: 19px;
+    border-color: white;
+    border-style: none;
+    background-color: #631040;
+    color: white;
+    cursor: pointer;
+}
